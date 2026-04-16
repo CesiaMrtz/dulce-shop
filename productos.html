@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Los mejores postres en Dulce Shop</title>
+<link rel="stylesheet" href="css/estilos.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+ <a href="index.html"><img src="imagenes/logo.png" class="logo" alt="Logo" width="100" style="vertical-align: middle;"></a>
+ <div class="hamburguesa" onclick="toggleMenu()">
+    ☰
+</div>
+ <nav class="nav-links"> 
+  <a href="index.html">Inicio</a> 
+  <a href="productos.html">Productos</a> 
+  <a href="promociones.html">Promociones</a> 
+  <a href="nosotros.html">Nosotros</a> 
+  <a href="contacto.html">Contacto</a> 
+  <a href="estudiante.html">Estudiante</a>
+</nav>
+</header>
+<main>
+<h2>Nuestros productos</h2>
+<p>Selecciona los productos que te gustaría probar y calcula el total automáticamente.</p>
+<p>Por ahora no contamos con servicio de compra en línea bi servicio a domicilio.</p>
+<section class="productos">
+    <div><input type="checkbox" data-precio="15"> <img src="imagenes/pastel.png" class="producto-img"><h3>Pastel especial</h3>
+     <p class="precio">$15</p>
+   </div>
+
+    <div><input type="checkbox" data-precio="4"> <img src="imagenes/cupcake.png" class="producto-img">
+      <h3>Cupcake gourmet</h3>
+      <p class="precio">$4</p>
+   </div>
+
+    <div><input type="checkbox" data-precio="2"> <img src="imagenes/galleta.png" class="producto-img">
+      <h3>Galleta artesanal</h3>
+      <p class="precio">$2</p>
+   </div>
+
+    <div><input type="checkbox" data-precio="12"> <img src="imagenes/tarta.png" class="producto-img">
+      <h3>Tarta de frutas</h3>
+      <p class="precio">$12</p>
+   </div>
+
+    <div><input type="checkbox" data-precio="3"> <img src="imagenes/brownie.png" class="producto-img">
+      <h3>Brownie de chocolate</h3>
+      <p class="precio">$3</p>
+   </div>
+
+    <div><input type="checkbox" data-precio="5">
+<img src="imagenes/cheesecake.png" class="producto-img">
+<h3>Cheesecake</h3>
+<p class="precio">$5</p>
+</div>
+
+<div><input type="checkbox" data-precio="6">
+<img src="imagenes/donut.png" class="producto-img">
+<h3>Donas glaseadas</h3>
+<p class="precio">$6</p>
+</div>
+
+<div><input type="checkbox" data-precio="7">
+<img src="imagenes/macarons.png" class="producto-img">
+<h3>Macarons</h3>
+<p class="precio">$7</p>
+</div>
+
+<div><input type="checkbox" data-precio="8">
+<img src="imagenes/flan.png" class="producto-img">
+<h3>Flan casero</h3>
+<p class="precio">$8</p>
+</div>
+
+<div><input type="checkbox" data-precio="9">
+<img src="imagenes/gelatina.png" class="producto-img">
+<h3>Gelatina decorada</h3>
+<p class="precio">$9</p>
+</div>
+
+<div><input type="checkbox" data-precio="10">
+<img src="imagenes/pie.png" class="producto-img">
+<h3>Pie de limón</h3>
+<p class="precio">$10</p>
+</div>
+
+<div><input type="checkbox" data-precio="11">
+<img src="imagenes/helado.png" class="producto-img">
+<h3>Helado artesanal</h3>
+<p class="precio">$11</p>
+</div>
+
+</section>
+<button onclick="calcularTotal()">Calcular total</button>
+<p id="total"></p>
+</main>
+<hr>
+<footer>
+<p>© DPWEB. Dulce Shop</p>
+<p>Desarrollado por: Cesia Noemí Martínez Hernández</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

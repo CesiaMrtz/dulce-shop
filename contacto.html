@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Los mejores postres en Dulce Shop</title>
+<link rel="stylesheet" href="css/estilos.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+ <a href="index.html"><img src="imagenes/logo.png" class="logo" alt="Logo" width="100" style="vertical-align: middle;"></a>
+ <div class="hamburguesa" onclick="toggleMenu()">
+    ☰
+</div>
+<nav class="nav-links"> 
+  <a href="index.html">Inicio</a> 
+  <a href="productos.html">Productos</a> 
+  <a href="promociones.html">Promociones</a> 
+  <a href="nosotros.html">Nosotros</a> 
+  <a href="contacto.html">Contacto</a> 
+  <a href="estudiante.html">Estudiante</a>
+</nav>
+</header>
+<main>
+<section class="hero">
+<h2>Contacto</h2>
+<p>Escríbenos para pedidos especiales, celebraciones y eventos.</p>
+<p>📞 2222-3333 | ✉ pedidos@dulceshop.com</p>
+</section>
+
+
+<hr>
+  <!-- FORMULARIO -->
+  <section>
+    <h3>Déjanos tu mensaje</h3>
+
+    <form id="formMensaje">
+      <input type="text" id="titulo" placeholder="Título del mensaje" required><br><br>
+      <input type="text" id="nombre" placeholder="Tu nombre" required><br><br>
+      <input type="text" id="contacto" placeholder="Correo o teléfono" required><br><br>
+      <textarea id="contenido" placeholder="Escribe tu mensaje" rows="4" required></textarea><br><br>
+      <button type="submit">Publicar mensaje</button>
+    </form>
+  </section>
+
+<hr>
+  <!-- MENSAJES PUBLICADOS -->
+  <section>
+    <h3>Mensajes de nuestros clientes</h3>
+    <div id="listaMensajes"></div>
+  </section>
+</main>
+
+<footer>
+<p>© DPWEB. Dulce Shop</p>
+<p>Desarrollado por: Cesia Noemí Martínez Hernández</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
